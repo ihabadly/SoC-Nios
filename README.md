@@ -96,7 +96,7 @@ These examples use [ModelSim&reg; and Quartus&reg; Prime from Intel FPGA](http:/
     - Wait until the design compilation completes
     - Connect the FPGA Development Board (DE0-NANO) to the any USB port on your computer
     - From the Taskbar, click the Device Programmer icon
-    - Click on "Hardware Setup..." and double click "USB Blaster" then click Close 
+    - Click on "Hardware Setup..." and double-click "USB Blaster" then click Close 
     - Click "Add File...", browse to the folder "output_files" in the "soc-nios" folder, select the "soc_nios.sof" file and click Open
     - Click Start to start programming the FPGA device connected to your computer
 
