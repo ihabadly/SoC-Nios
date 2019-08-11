@@ -1,4 +1,4 @@
-# SoC-NIOS&reg;
+# SoC-Nios&reg;
 Building an example System on Chip (SoC) using NIOS&reg; II processor.
 
 ## Install
