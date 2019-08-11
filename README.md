@@ -30,7 +30,7 @@ These examples use [ModelSim&reg; and Quartus&reg; Prime from Intel FPGA](http:/
     - System ID core
 
 4.  Run the Quartus&reg; Prime Tool to build the Nios&reg; II processor system, then:
-    - From Menu, choose Tools -> Platform Designer
+    - From the Quartus Menu, choose Tools -> Platform Designer
     - Click: Close
     - From the IP Catalog, double click on: "Nios II Processor" under the "Processor and Peripherals" category and the "Embedded Processors" sub-category
     - Click: Finish
