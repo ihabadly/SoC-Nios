@@ -19,7 +19,7 @@ These examples use [ModelSim&reg; and Quartus&reg; Prime from Intel FPGA](http:/
     $ cd soc-nios
     $ code .
     ```
-    Click on the count_bin.vhd file in the left pane to view its contents.
+    Click on the soc_nios.vhd file in the left pane to view its contents.
     
 3. The example System on Chip design consists of:
     - Nios&reg; II processor
