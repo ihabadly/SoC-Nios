@@ -33,6 +33,7 @@ These examples use [ModelSim&reg; and Quartus&reg; Prime from Intel FPGA](http:/
     - From the Quartus Menu, choose Tools -> Platform Designer
     - Click: Close
     - From the IP Catalog, double click on: "Nios II Processor" under the "Processor and Peripherals" category and the "Embedded Processors" sub-category
+    - Select Nios II/e Implementation
     - Click: Finish
     - From the IP Catalog, double click on: "On-Chip Memory (RAM or ROM)" under the "Basic Functions" category and the "On Chip Memory" sub-category
     - Click: Finish
