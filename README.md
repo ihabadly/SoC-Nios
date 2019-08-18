@@ -36,6 +36,7 @@ These examples use [ModelSim&reg; and Quartus&reg; Prime from Intel FPGA](http:/
     - Select Nios II/e Implementation
     - Click: Finish
     - From the IP Catalog, double click on: "On-Chip Memory (RAM or ROM)" under the "Basic Functions" category and the "On Chip Memory" sub-category
+    - In the Size section, change the Total memory size to: 20480 bytes
     - Click: Finish
     - From the IP Catalog, double click on: "JTAG UART" under the "Interface Protocols" category and the "Serial" sub-category
     - Click: Finish
@@ -50,6 +51,7 @@ These examples use [ModelSim&reg; and Quartus&reg; Prime from Intel FPGA](http:/
     - In the System Contents view, connect the "data_master" and the "instruction_master" ports of the "nios2_gen2_0" to the "s1" port of the "onchip_memory2_0" module
     - In the System Contents view, connect the "data_master" port of the "nios2_gen2_0" to the "s1" port of the "pio_0" and the "timer_0" modules
     - In the System Contents view, connect the "data_master" port of the "nios2_gen2_0" to the "Avalon Memory Mapped Slave" port of the "jtag_uart_0" module
+    - In the System Contents view, connect the "data_master" port of the "nios2_gen2_0" to the "control_slave" port of the "sysid_qsys_0" module
     - In the System Contents view, connect the "irq" port of the "nios2_gen2_0" to the "irq" port of the "timer_0" then to the "irq" port of the "jtag_uart_0"
     - In the System Contents view, double click in the "Export" field at the row "external_connection" under the "pio_0" module and hit the return key
     - In the System Contents view, double click on the "nios2_gen2_0" core, under the "Vectors" tab, choose "onchip_memory2_0.s1" as the "Reset vector memory" and the "Exception vector memory"  
