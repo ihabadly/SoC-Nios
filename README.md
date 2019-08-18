@@ -36,7 +36,7 @@ These examples use [ModelSim&reg; and Quartus&reg; Prime from Intel FPGA](http:/
     - Select Nios II/e Implementation
     - Click: Finish
     - From the IP Catalog, double click on: "On-Chip Memory (RAM or ROM)" under the "Basic Functions" category and the "On Chip Memory" sub-category
-    - In the Size section, change the Total memory size to: 20480 bytes
+    - In the Size section, change the Total memory size to: 49152 bytes
     - Click: Finish
     - From the IP Catalog, double click on: "JTAG UART" under the "Interface Protocols" category and the "Serial" sub-category
     - Click: Finish
