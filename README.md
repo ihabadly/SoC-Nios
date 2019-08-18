@@ -116,6 +116,7 @@ These examples use [ModelSim&reg; and Quartus&reg; Prime from Intel FPGA](http:/
     - In the Project Explorer view, expand "hello_world". Double-click "hello_world.c" to view the source code
     - To build the project, select "hello_world", from the Menu, choose Project -> Build Project
     - To run the C program, select "hello_world", from the Menu, choose Run -> Run As -> Nios II Hardware
+    - In the Run Configurations dialog box, click the Target Connection tab, click Refresh Connections, then click Run
     - The Nios II SBT for Eclipse downloads the program to the FPGA on the target board and executes the code
     - The message “Hello from Nios II!” displays in the Nios II Console view
 
